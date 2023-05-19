@@ -15,7 +15,7 @@
 	display: flex;
 	justify-content: space-between;
 }
-li{
+.ul-list li{
 	margin-top: 20px;
 	margin-bottom: 0;
 	list-style: none;
