@@ -1,0 +1,69 @@
+.download-menu{
+	width: 100%;
+	height: 350px;
+	background: #FBF0F4;
+}
+.download-container{
+	width: 80%;
+	height: 100%;
+	display: flex;
+	margin: 0 auto;
+}
+.download-container .left-block{
+	width: 50%;
+	height: 80%;
+	margin-top:50px ;
+	margin-right: 50px;
+}
+.download-container.left-block .left-title{
+	padding-bottom: 10px;
+	font-family: "Fredoka";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 55px;
+}
+.purple-text{
+	color: #D23166;
+}
+
+.download-container.left-description{
+	font-family: 'Hind Madurai';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	opacity: 0.8;
+}
+.download-container .left-block .store{
+	display: flex;
+	align-items: center;
+}
+.store .market{
+	width: 120px;
+	height: 50px;
+}
+.store1{
+	width: 110px;
+	height: 57px;
+}
+.button{
+	padding-top: 10px;
+	display: flex;
+	justify-content: start;
+	align-items: flex-start;
+	margin-top: 10px;
+}
+.download-container .right-block{
+	width: 50%;
+	height: 100%;
+	position: relative;
+}
+.download-container .right-block img{
+	width:40%;
+	height: 100%;
+	border-radius: 16px;
+	position: absolute;
+	top: 50px;
+	left: 20px;
+}

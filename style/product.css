@@ -1,0 +1,86 @@
+.product-section{
+	width: 100%;
+}
+.product-section-container{
+	width: 80%;
+	height: 90%;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+.product-types{
+	width: 100%;
+	height: 130px;
+}
+.types-title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.types{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.type{
+	font-family: 'Roboto';
+	font-style: normal;
+	color:grey;
+	border: 1px solid #fff;
+	transition: padding-bottom 100ms;
+}
+.type:hover{
+	color: black;
+	font-weight: bold;
+	border-bottom: 1px solid #D64374;
+}
+.product-block{
+	width: 100%;
+	height: 370px;
+	display: flex;
+	align-items: center	;
+}
+.product-block .left-block{
+	width: 50%;
+	height: 50%;
+	margin-left: 50px;
+}
+}
+.product-block.left-block .left-title{
+	padding-bottom: 10px;
+	font-family: "Fredoka";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 55px;
+}
+.purple-text{
+	color: #D23166;
+}
+.product-block.left-description{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 8px;
+	line-height: 24px;
+}
+.price{
+	display: flex;
+	align-items: center;
+}
+.button{
+	padding-top: 10px;
+	display: flex;
+	justify-content: start;
+	align-items: flex-start;
+	margin-top: 10px;
+}
+/*------------bacgroun-image------------*/
+.product-block .right-block{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

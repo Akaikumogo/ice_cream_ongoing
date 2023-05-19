@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.buy-button{
+	width: 125px;
+	height: 35px;
+	background: #D23166;
+	border: none;
+	border-radius: 4px;
+	color: white;
+	cursor: pointer;
+	transition: all 500ms ease-out;
+}
+.buy-button:hover{
+	border: 1px solid  #D23166;
+	background: transparent;
+	color:  #D23166;
+}
+.screen{
+	width: 1350px;
+	margin: 0 auto;
+}
+
+.main{
+	width: 100%;
+	margin: 0 auto;
+}
